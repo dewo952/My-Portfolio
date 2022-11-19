@@ -4,7 +4,7 @@ import React from "react";
 import NetFlix from "../public/assets/projects/netflix.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
-import Slider from "react-slick";
+
 
 
 const ReactNativeSocialApp = () => {
