@@ -5,12 +5,12 @@ import NetFlix from "../public/assets/projects/netflix.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const ReactNativeSocialApp = () => {
+const InstagramClone = () => {
   return (
     <>
       <Head>
-        <title>React Native Social Media App</title>
-        <meta name="description" content="ReactNativeSocialApp" />
+        <title>Instagram Clone</title>
+        <meta name="description" content="InstagramClone" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="w-full">
@@ -24,8 +24,8 @@ const ReactNativeSocialApp = () => {
             alt="/"
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-            <h2 className="py-2">Social App</h2>
-            <h3>React JS / Nodejs / MongoDB/ Firebase</h3>
+            <h2 className="py-2">Instagram Clone</h2>
+            <h3>React JS / Tailwind /</h3>
           </div>
         </div>
 
@@ -34,12 +34,28 @@ const ReactNativeSocialApp = () => {
             <p>Project</p>
             <h2 className="mb-2">Overview</h2>
             <p>
-              MERN stack app developed using
+              This app was built using
               <span className="font-semibold text-teal-500">
-                {" "}React Native, MongoDB, NodeJS and Express
-              </span>. Inspired from Instagram users can connect with their friends and communicate with them using chat session, can upload pictures, can manage their profile, and etc. Currently app is in development phase and will be pushed to production soon 
-              
-              
+                {" "}
+                React JS{" "}
+              </span>{" "}
+              and is hosted on{" "}
+              <span className="font-semibold text-teal-500">Firebase</span>. It
+              has used The Movie Database (TMDB) API to fetch Movie, series,
+              Shows, Documentaries. It is Netflix UI with basic functionalities.
+              Users can view trailers of the shows when clicking on the show
+              which is fetched from youtube using 2{" "}
+              <span className="font-semibold text-teal-500">
+                React Libraries
+              </span>
+              . This app is build using
+              <span className="font-semibold text-teal-500">
+                {" "}
+                HTML, CSS, Javascript, ReactJs, Firebase
+              </span>
+              . Currently this app is developing and adding SignUp, Login, And
+              payment gateway using{" "}
+              <span className="font-semibold text-teal-500"> 'Strip'</span>.
             </p>
 
             <a href="" target="_blank" rel="noreferrer">
@@ -54,22 +70,13 @@ const ReactNativeSocialApp = () => {
               <p className="text-center font-bold pb-2">Technologies</p>
               <div className="grid grid-cols-3 md:grid-cols-1">
                 <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> React Native
+                  <RiRadioButtonFill className="pr-1" /> React
+                </p>
+                <p className="text-gray-600 py-2 flex items-center">
+                  <RiRadioButtonFill className="pr-1" /> Tailwind
                 </p>
                 <p className="text-gray-600 py-2 flex items-center">
                   <RiRadioButtonFill className="pr-1" /> Javascript
-                </p>
-                <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> NodeJS
-                </p>
-                <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> MongoDB
-                </p>
-                <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> ExpressJS
-                </p>
-                <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> Firebase
                 </p>
               </div>
             </div>
@@ -83,4 +90,4 @@ const ReactNativeSocialApp = () => {
   );
 };
 
-export default ReactNativeSocialApp;
+export default InstagramClone;

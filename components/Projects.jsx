@@ -1,10 +1,10 @@
-import Quote from '../public/assets/projects/QuoteGenerator.jpg'
+import Quote from "../public/assets/projects/QuoteGenerator.jpg";
 import NetFlix from "../public/assets/projects/netflix.png";
 import ProjectItems from "./ProjectItems";
 
 const Projects = () => {
   return (
-    <div id='projects' className="w-full">
+    <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-teal-600">
           Projects
@@ -18,10 +18,10 @@ const Projects = () => {
             tech="Javascript"
           />
           <ProjectItems
-            title="NextJs Ecommerce Website"
+            title="Instagram Clone Using React Js"
             backgroundImg={""}
-            projectUrl="/NextJsEcommerce"
-            tech="Next JS"
+            projectUrl="/InstagramClone"
+            tech="React JS"
           />
           <ProjectItems
             title="Netflix Clone"
@@ -32,11 +32,9 @@ const Projects = () => {
           <ProjectItems
             title="React-Native Social Media App"
             backgroundImg={""}
-            
             projectUrl="/ReactNativeSocialApp"
             tech="React Native"
           />
-         
         </div>
       </div>
     </div>
