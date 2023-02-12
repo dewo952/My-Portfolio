@@ -13,7 +13,7 @@ const Resume = () => {
         }}
       />
 
-      <div className="bg-gray-50 text-center flex mx-auto mt-6 ml-[640px] mr-[600px] border border-r-[5px] border-l-[5px] border-t-[5px] border-b-[5px] border-gray-500 items-center p-10 text-2xl algin sm-border">
+<div className=" text-center flex mx-auto mt-6 ml-[600px] mr-[600px] items-center p-10 text-2xl algin sm: border-none]">
         <p className="c11 ">
           <span className="c17 c19 c20 c28" />
         </p>
@@ -24,10 +24,14 @@ const Resume = () => {
             <tr className="c33">
               <td className="c12" colSpan={1} rowSpan={1}>
                 <p className="c32 title" id="h.x8fm1uorkbaw">
-                  <span className="c17 c5 c23">Diven Khatri</span>
+                  <span className="c17 c5 c23 text-green-600">
+                    Diven Khatri
+                  </span>
                 </p>
                 <p className="c24 subtitle" id="h.ymi089liagec">
-                  <span className="c17 c35 c9 c20 c5">React Developer</span>
+                  <span className="c17 c35 c9 c20 c5">
+                    Frontend React Developer
+                  </span>
                 </p>
               </td>
               <td className="c36" colSpan={1} rowSpan={1}>
@@ -85,15 +89,21 @@ const Resume = () => {
                 </p>
                 <p className="c18">
                   <span className="c17 c22 c20 c5">
-                    2. Developed and Deployed React-Native Ecommerce App for
+                    2. . Developed and Deployed React-Native Ecommerce App for
                     buyers and Developed and Deployed Sellers App to maintain
-                    separate operations.
+                    separate operations and utilized Git for version control.
                   </span>
                 </p>
                 <p className="c18">
                   <span className="c17 c22 c20 c5">
-                    3. Maintained and Designed &nbsp;Wordpress Website and
+                    3. Maintained and Designed&nbsp;Wordpress Website and
                     handled UI/UX of the website.
+                  </span>
+                </p>
+                <p className="c18">
+                  <span className="c17 c22 c20 c5">
+                    4. Resolved technical issues by debugging and
+                    troubleshooting code
                   </span>
                 </p>
                 <h1 className="c37" id="h.yk8luflkpwij">
@@ -131,11 +141,7 @@ const Resume = () => {
                   <span className="c17 c22 c20 c5">
                     Completed &nbsp;six-month &nbsp;Google Data Analytics
                     training. Demonstrated hands-on experience with data
-                    cleaning, data visualization, project management,
-                    interpreting and communicating data analytics findings.
-                    Confidence in transforming complex data into actionable and
-                    clear insights. Fluency in computer programming languages
-                    and a solid understanding of databases.
+                    cleaning, data visualization, project management.
                   </span>
                 </p>
                 <h2 className="c2" id="h.e2pzxmke3cg">
@@ -153,11 +159,11 @@ const Resume = () => {
                 </h2>
                 <h3 className="c38">
                   <span className="c1">November 2021 - December 2021</span>
-                </h3>                
+                </h3>
                 <p className="c4">
                   <span className="c16" />
                 </p>
-               
+
                 <p className="c6">
                   <span className="c17 c22 c20 c5" />
                 </p>
@@ -232,27 +238,17 @@ const Resume = () => {
                     to tweet the quote
                   </span>
                 </h2>
-                <h2 className="c2" id="h.bpsug4mkh2i7">
-                  <span>
-                    Ecommerce Website
-                    <br />
-                  </span>
-                  <span className="c17 c1 c20 c30">
-                    Developed Ecommerce Website using HTML, CSS, and Javascript.
-                  </span>
-                </h2>
+
                 <h2 className="c2" id="h.d35cq97tcrh7">
-                  <span className="c17 c1 c30 c20">
-                    React-Js and Next-Js Project
-                  </span>
+                  <span className="c17 c1 c30 c20">React-Js Project</span>
                 </h2>
                 <h2 className="c2" id="h.wh0kk7eefmq5">
-                  <span className="c13 c5">Ecommerce &nbsp;Website</span>
+                  <span className="c13 c5">Instagram Clone</span>
                 </h2>
                 <p className="c15">
                   <span className="c5">
-                    A complete ecommerce website with stripe payment gateway
-                    using Reactjs, Nextjs, React hooks and etc
+                    Using Reactjs, Tailwind Css ,React-Router-Dom for creating
+                    Instagram UI.
                   </span>
                 </p>
                 <h2 className="c2" id="h.sxriol1e8oj7">
@@ -294,15 +290,17 @@ const Resume = () => {
                 </p>
                 <p className="c15">
                   <span className="c17 c22 c20 c5">
-                    React Developer with a proven ability to collaborate
-                    effectively with senior developers while spending extra time
-                    to be mentored. Enjoy working closely with team members to
-                    ensure workloads are effectively redirected to bottlenecks
-                    and personally picking up the slack when necessary. I
-                    attended a 1000+ hour coding bootcamp to learn new languages
-                    while sharpening existing skills. Ready to apply my passion
-                    for coding with a &nbsp;talented team to develop quality
-                    solutions.{" "}
+                    A motivated and skilled Frontend React Developer with 1 year
+                    of experience developing dynamic and responsive web
+                    applications in a team environment and delivering
+                    high-quality projects. Proficient in HTML, CSS, JavaScript,
+                    and React with experience integrating with backend services
+                    and utilizing Git for version control. Have strong
+                    problem-solving and analytical skills, with effective
+                    team-work abilities and communication. Have capability to
+                    work in a collaborative team environment using agile
+                    methodologies and project management tools to deliver
+                    high-quality projects.
                   </span>
                 </p>
                 <p className="c4">
