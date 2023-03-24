@@ -12,19 +12,20 @@ const AboutMe = () => {
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold text-teal-600">
-            <p>I'm React Developer. Please take a look around.</p>
+            <p>I'm Frontend Developer. Please take a look around.</p>
           </div>
-          <div>
+          <div className="text-xl">
             <p>
-              I'm a <b>Frontend Developer</b>  building the Front-end of Websites,
-              Web Applications and Mobile Application that leads to the success of the overall
-              product. Check out some of my work in the Projects section.
-            </p>
-            <br/>
-            <p>
-              I'm open to <b>Job opportunities </b> where I can contribute, learn and
-              grow. If you have a good opportunity that matches my skills and
-              experience then don't hesitate to contact me.
+              I'm a <b>Frontend Developer</b> specialized in building{" "}
+              <b>UI/UX</b> of Websites, Web Applications and Mobile
+              Application using <b>React-Js</b> and <b>React-Native</b> that
+              leads to the success of the overall product. Check out some of my
+              work in{" "}
+              <a href="#projects" className="underline text-teal-600 ">
+                {" "}
+                <b>Project</b>
+              </a>{" "}
+              section.
             </p>
           </div>
         </div>

@@ -43,7 +43,7 @@ export default function Home() {
                 Diven Khatri
               </h2>
               <h3 className="text-2xl py-2 md:text-3xl">
-                Frontend React Developer
+                Frontend Developer
               </h3>
               <p className="text-md py-2 leading-8 text-gray-800 max-w-5xl mx-auto">
                 Frontend React Developer specializing in building (and

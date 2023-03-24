@@ -29,7 +29,7 @@ const Contact = () => {
             className=" my-4 p-2   border-2 border-black rounded-3xl"
             type="email"
             placeholder="Email"
-            name="email"
+            name="email" 
           />
           <textarea
             className="  p-2  border-2 border-black rounded-3xl"
